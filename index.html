@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<html lang="fr-FR">
+<head>
+<meta charset="UTF-8">
+<title>MVI</title>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Codystar" rel="stylesheet"> 
+<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+<link rel="stylesheet" type="text/css" href="style/css/prettyPhoto.css"  />
+<link rel="stylesheet" type="text/css" href="style/type/classic.css" media="all" />
+<link rel="stylesheet" type="text/css" href="style/type/goudy.css" media="all" />
+<script type="text/javascript" src="style/js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="style/js/superfish.js"></script>
+<script type="text/javascript" src="style/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="style/js/jquery.aw-showcase.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function()
+{
+	$("#showcase").awShowcase(
+	{
+		content_width:			1200,
+		content_height:			600,
+		fit_to_parent:			false,
+		auto:					true,
+		interval:				2500,
+		continuous:				true,
+		loading:				true,
+		tooltip_width:			200,
+		tooltip_icon_width:		32,
+		tooltip_icon_height:	32,
+		tooltip_offsetx:		18,
+		tooltip_offsety:		0,
+		arrows:					true,
+		buttons:				false,
+		btn_numbers:			false,
+		keybord_keys:			true,
+		mousetrace:				false, /* Trace x and y coordinates for the mouse */
+		pauseonover:			true,
+		stoponclick:			false,
+		transition:				'fade', /* hslide/vslide/fade */
+		transition_delay:		0,
+		transition_speed:		1000,
+		show_caption:			'onload', /* onload/onhover/show */
+		thumbnails:				false,
+		thumbnails_position:	'outside-last', /* outside-last/outside-first/inside-last/inside-first */
+		thumbnails_direction:	'vertical', /* vertical/horizontal */
+		thumbnails_slidex:		1, /* 0 = auto / 1 = slide one thumbnail / 2 = slide two thumbnails / etc. */
+		dynamic_height:			false, /* For dynamic height to work in webkit you need to set the width and height of images in the source. Usually works to only set the dimension of the first slide in the showcase. */
+		speed_change:			true, /* Set to true to prevent users from swithing more then one slide at once. */
+		viewline:				false, /* If set to true content_width, thumbnails, transition and dynamic_height will be disabled. As for dynamic height you need to set the width and height of images in the source. */
+		custom_function:		null /* Define a custom function that runs on content change */
+	});
+});
+</script>
+</head>
+<body>
+<div class="imagefond"></div>
+<div id="body-wrapper"> 
+  <!-- Begin Header -->
+  <div id="header">
+    <div class="logo">
+   <!-- <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+     <!-- <a href="index.html"><p class="titre">M&nbsp;V&nbsp;i</p></a>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+		<br /> -->
+     <p class="titre2">Marie&nbsp;&nbsp;Valorisation&nbsp;&nbsp;Immobilière</p>
+    </div>
+    <!--<br />
+    <br />
+    <br />
+    <!-- Begin Menu -->
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="menu">
+      <ul class="sf-menu">
+        <li><a href="index.html">Accueil</a>
+        </li>
+        <li><a href="realisation.html">Réalisations</a></li>
+        <li><a href="tarifs.html">Préstations & Tarifs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="clear"></div>
+    <!-- End Menu -->  
+    
+  </div>
+  <!-- End Header --> 
+  
+  <!-- Begin Slider -->
+  <div id="showcase" class="showcase"> 
+    
+    <!-- Each child div in #showcase represents a slide -->
+    <div class="showcase-slide"> 
+      <!-- Put the slide content in a div with the class .showcase-content. -->
+      <div class="showcase-content"> <img src="pic/photodefilement1.jpg" alt="01" /> </div>
+    </div>
+    
+    <!-- Each child div in #showcase represents a slide -->
+    <div class="showcase-slide"> 
+      <!-- Put the slide content in a div with the class .showcase-content. -->
+      <div class="showcase-content"> <img src="pic/photodefilement2.jpg" alt="01" /> </div>
+    </div>
+    
+    <!-- Each child div in #showcase represents a slide -->
+    <div class="showcase-slide"> 
+      <!-- Put the slide content in a div with the class .showcase-content. -->
+      <div class="showcase-content"> <img src="pic/photodefilement3.jpg" alt="01" /> </div>
+    </div>
+    
+    <!-- Each child div in #showcase represents a slide -->
+    <!-- <div class="showcase-slide"> 
+      <!-- Put the slide content in a div with the class .showcase-content. -->
+    <!--  <div class="showcase-content"> <img src="pic/photodefilement4.jpg" alt="01" /> </div>
+    </div> -->
+    
+    <!-- Each child div in #showcase represents a slide -->
+    <div class="showcase-slide"> 
+      <!-- Put the slide content in a div with the class .showcase-content. -->
+      <div class="showcase-content"> <img src="pic/photodefilement5.jpg" alt="01" /> </div>
+    </div>
+  </div>
+  <!-- End Slider --> 
+  
+  <!-- Begin Wrapper -->
+  <div id="wrapper">
+  
+  	<!-- Begin Portfolio -->
+      <div id="portfolio">  
+      <br />
+<br />
+<br />
+<br /> 
+              			<div id="images">
+					<p class="images"><img class="left" src="pic/m1.jpg" alt="image à gauche" /></div>
+					<div class="titre3" >MVI</div>
+      			<br />
+      			<p class="titre10">Ou valoriser votre bien en vue de sa vente</p>
+      			<br />	
+      			<br />	
+      			<br />			
+					<p class="textinterligne"> Notre objectif : rendre votre bien attractif pour le plus grand nombre, en un minimum de temps et à moindre coût.
+					<br />
+					Nous intervenons pour mettre en avant les atouts de votre bien afin de se démarquer de la concurrence et d’écourter les délais de vente.
+					</p>					
+			<br />      	       
+       <!--- </div> -->
+    <div class="items"> 
+        <!-- .wrap --> 
+    </div>
+    <!-- End Portfolio -->   
+  </div>
+  <!-- End Wrapper -->
+</div>
+<!-- End Body Wrapper -->
+<div id="footer">
+  <div class="footer">
+    <p style="text-align: center;">MVI &copy; 2018-2019</p>
+  </div>
+</div>
+<script type="text/javascript" src="style/js/scripts.js"></script>
+</body>
+</html>
